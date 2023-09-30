@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class DashPlayerBehavior : BaseBehavior
 {
 	[SerializeField] private PlayerMovement movement;
 	[SerializeField] private InputController controller;
+
+	public static Action onDash;
 
 	private void Awake()
 	{
@@ -17,6 +20,7 @@ public class DashPlayerBehavior : BaseBehavior
 		movement.Dash();
 		movement.enabled = false;
 		controller.enabled = false;
+		onDash?.Invoke();
 	}
 
 	public override void Exit()

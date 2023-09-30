@@ -23,7 +23,7 @@ public class InputController : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.K))
 			setter.SetbehaviorMeleeAttack();
 		
-		if (Input.GetKeyDown(KeyCode.J))
+		if (Input.GetKeyDown(KeyCode.J) && StaminaBar.canDash)
 			setter.SetbehaviorDash();
 	}
 

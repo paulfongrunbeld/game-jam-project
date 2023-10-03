@@ -2,18 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerBehaviorSetter : MonoBehaviour
+public class WormBehaviorSetter : MonoBehaviour
 {
     [SerializeField] private List<BaseBehavior> behaviorsList;
     [SerializeField] private BaseBehavior currentBehavior;
     [SerializeField] private Animator anim;
-    
+
     private enum Behaviors
     {
         Idle,
-        Runing,
-        MelleAttack,
-        Dash,
+        Walk,
+        RangeAttack,
         Hit,
         Death
     }
@@ -30,12 +29,11 @@ public class PlayerBehaviorSetter : MonoBehaviour
         anim = GetComponent<Animator>();
         behaviorsList = new List<BaseBehavior>()
         {
-           GetComponent<IdlePlayerBehavior>(),
-           GetComponent<RunPlayerBehavior>(),
-           GetComponent<MelleAttackPlayerBehavior>(),
-           GetComponent<DashPlayerBehavior>(),
-           GetComponent<HitPlayerBehavior>(),
-           GetComponent<DeathPlayerBehavior>()
+           GetComponent<IdleWormBehavior>(),
+           GetComponent<WalkWormBehavior>(),
+           GetComponent<AttackWormBehavior>(),
+           GetComponent<HitWormBehavior>(),
+           GetComponent<DeathWormBehavior>(),
         };
         SetBehaviorIdle();
     }
@@ -52,10 +50,10 @@ public class PlayerBehaviorSetter : MonoBehaviour
         if (this.currentBehavior != null) this.currentBehavior.Update();
     }
 
-    public void SetBehaviorRuning()
+    public void SetBehaviorWalk()
     {
-        var behavior = behaviorsList[(int)Behaviors.Runing];
-        Behavior = Behaviors.Runing;
+        var behavior = behaviorsList[(int)Behaviors.Walk];
+        Behavior = Behaviors.Walk;
         this.SetBehavior(behavior);
     }
 
@@ -66,20 +64,12 @@ public class PlayerBehaviorSetter : MonoBehaviour
         this.SetBehavior(behavior);
     }
 
-    public void SetbehaviorMeleeAttack()
+    public void SetBehaviorRangeAttack()
     {
-        var behavior = behaviorsList[(int)Behaviors.MelleAttack];
-        Behavior = Behaviors.MelleAttack;
+        var behavior = behaviorsList[(int)Behaviors.RangeAttack];
+        Behavior = Behaviors.RangeAttack;
         this.SetBehavior(behavior);
     }
-    public void SetbehaviorDash()
-    {
-        var behavior = behaviorsList[(int)Behaviors.Dash];
-        Behavior = Behaviors.Dash;
-        this.SetBehavior(behavior);
-    }
-
-
     public void SetbehaviorHit()
     {
         var behavior = behaviorsList[(int)Behaviors.Hit];
@@ -89,8 +79,8 @@ public class PlayerBehaviorSetter : MonoBehaviour
 
     public void SetBehaviorDeath()
     {
-        var behavior = behaviorsList[(int)Behaviors.Death];
-        Behavior = Behaviors.Death;
+        var behavior = behaviorsList[(int)Behaviors.Hit];
+        Behavior = Behaviors.Hit;
         this.SetBehavior(behavior);
     }
 }

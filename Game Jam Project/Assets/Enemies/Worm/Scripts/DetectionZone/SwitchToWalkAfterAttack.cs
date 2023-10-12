@@ -17,4 +17,12 @@ public class SwitchToWalkAfterAttack : MonoBehaviour
 			setter.SetBehaviorWalk();
 		}
 	}
+
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.gameObject.GetComponent<PlayerMovement>() != null)
+		{
+			setter.SetBehaviorRangeAttack();
+		}
+	}
 }

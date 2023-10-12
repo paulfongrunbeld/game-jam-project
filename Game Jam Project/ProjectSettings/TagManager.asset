@@ -9,6 +9,7 @@ TagManager:
   - SP Bar
   - FireWorm
   - HPBar
+  - PlayerAttackZone
   layers:
   - Default
   - TransparentFX

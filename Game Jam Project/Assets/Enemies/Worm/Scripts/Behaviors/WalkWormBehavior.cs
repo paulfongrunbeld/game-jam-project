@@ -9,13 +9,15 @@ public class WalkWormBehavior : BaseBehavior
 	[SerializeField] private Rigidbody2D rb;
 	[SerializeField] private SpriteRenderer sr;
 	public List<GameObject> attackPositions;
-	[SerializeField] public Vector2 currentAttackPos;
+	[SerializeField] public Vector3 currentAttackPos;
+
+	[SerializeField] private WormBehaviorSetter setter;
 	private void Awake()
 	{
 		speed = 1f;
 		rb = GetComponent<Rigidbody2D>();
 		sr = GetComponent<SpriteRenderer>();
-		
+		setter = GetComponentInParent<WormBehaviorSetter>();
 		attackPositions = new List<GameObject>();
 	}
 	
@@ -26,7 +28,8 @@ public class WalkWormBehavior : BaseBehavior
 
 	public override void Update()
 	{
-		transform.position += ((Vector3)currentAttackPos - transform.position).normalized * speed * Time.deltaTime;
+		transform.position += (currentAttackPos - transform.position).normalized * speed * Time.deltaTime;
+		
 		SetRotation();
 		SetAttackPos();
 

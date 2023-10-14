@@ -1,0 +1,429 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/Unity/game-jam-project/Game Jam Project
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+50104
+Successfully changed project path to: D:/Unity/game-jam-project/Game Jam Project
+D:/Unity/game-jam-project/Game Jam Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 107.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path D:/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/game-jam-project/Game Jam Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'D:/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003487 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.626 seconds
+Domain Reload Profiling:
+	ReloadAssembly (627ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (445ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007432 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.173 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1174ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (969ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (505ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4081 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (203.8 KB). Loaded Objects now: 4559.
+Memory consumption went from 171.7 MB to 171.5 MB.
+Total: 3.337100 ms (FindLiveObjects: 0.325500 ms CreateObjectMapping: 0.110000 ms MarkObjects: 2.715700 ms  DeleteObjects: 0.184900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 363853.325425 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0019.png
+  artifactKey: Guid(b93f17f4619dcea46937437f7d244462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0019.png using Guid(b93f17f4619dcea46937437f7d244462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4077b9e86ef896c1f5c7622e8b4b0ebf') in 0.276954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0031.png
+  artifactKey: Guid(38ba9cc64ee67f04a8e1d1fb9970e5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0031.png using Guid(38ba9cc64ee67f04a8e1d1fb9970e5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a00299f2907afdb9204eee7a88df8c') in 0.140150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0041.png
+  artifactKey: Guid(f00668d1972d97d439af2a582ff17aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0041.png using Guid(f00668d1972d97d439af2a582ff17aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ecee700e9c72c88ec58858248cb7eb') in 0.133286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0042.png
+  artifactKey: Guid(6028f15dccb872a409ebf41bce26cad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0042.png using Guid(6028f15dccb872a409ebf41bce26cad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bfb80367bd9d427c2afa37bd4655e7') in 0.140395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0034.png
+  artifactKey: Guid(c4d733e2ab53e8d4889f099adfd5761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0034.png using Guid(c4d733e2ab53e8d4889f099adfd5761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b67b481c44cf0851bee9e590a5b5a3') in 0.128763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0025.png
+  artifactKey: Guid(b133c5ba96b758341b9511bd467fdea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0025.png using Guid(b133c5ba96b758341b9511bd467fdea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d5c6d61f89379a649fa460cb36de46') in 0.131406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0029.png
+  artifactKey: Guid(f02c9a981831c584fa43e464557c4d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0029.png using Guid(f02c9a981831c584fa43e464557c4d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2238f0164902ecf565b66ff2008876') in 0.133028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0044.png
+  artifactKey: Guid(1095d8505cbebcf44a654cdfc6ad15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0044.png using Guid(1095d8505cbebcf44a654cdfc6ad15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1229308ee34a328f9aed1f0026b8a8bc') in 0.130513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0045.png
+  artifactKey: Guid(a001ec933bc3d354ea1b28ad4d624550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0045.png using Guid(a001ec933bc3d354ea1b28ad4d624550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ec1ecb9c069a267360cb38740b0135') in 0.126093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.370222 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0047.png
+  artifactKey: Guid(759809f2eb434cf4c8fdba3f48bb3aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0047.png using Guid(759809f2eb434cf4c8fdba3f48bb3aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec98316430e6b44e53fb2031b6eaf749') in 0.185668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0051.png
+  artifactKey: Guid(b4c184fb2525bd94a812cb6df974bda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0051.png using Guid(b4c184fb2525bd94a812cb6df974bda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f085d1dabb6d66ca1bda639c78d260') in 0.161129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0060.png
+  artifactKey: Guid(44cc1d211b2b392438b053934fbc19b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0060.png using Guid(44cc1d211b2b392438b053934fbc19b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057ca47e086c4a99b6c7c834314f69e2') in 0.127888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0052.png
+  artifactKey: Guid(e7b0052111089e346b73c855566f2866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0052.png using Guid(e7b0052111089e346b73c855566f2866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5851cc3fc7ab936d5accd114f35459') in 0.124175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0056.png
+  artifactKey: Guid(28f69eb40a72bb944ae077c0be8d144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0056.png using Guid(28f69eb40a72bb944ae077c0be8d144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f4725a83ec9a32f970f5ff599d3e56') in 0.131920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0059.png
+  artifactKey: Guid(cd5b5802393424247a11fda7bf95bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0059.png using Guid(cd5b5802393424247a11fda7bf95bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4811969105a5da480d5a2e9b3ff75a1d') in 0.117409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.003270 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0053.png
+  artifactKey: Guid(246c1b61c4d194a4e91da9612d5355f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0053.png using Guid(246c1b61c4d194a4e91da9612d5355f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53c1d6416b62c5a4ee090f137570c9a') in 0.164263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0058.png
+  artifactKey: Guid(b7bff81d272721549b0d983e04710d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0058.png using Guid(b7bff81d272721549b0d983e04710d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4d44656b77521148b50fccf6faa8d3') in 0.117095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0061.png
+  artifactKey: Guid(9ffa0fbb26052d4408492f05c281d65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0061.png using Guid(9ffa0fbb26052d4408492f05c281d65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9adb2cbe734cfe8609e19587adead61') in 0.116777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0059.png
+  artifactKey: Guid(cd5b5802393424247a11fda7bf95bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0059.png using Guid(cd5b5802393424247a11fda7bf95bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2e0fa41ec9c53a96200069561c5e9c') in 0.115694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.100281 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0050.png
+  artifactKey: Guid(a4dba762fef2c4b4eb8c890d6c60591e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0050.png using Guid(a4dba762fef2c4b4eb8c890d6c60591e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2897b1ca6c1da68fe4a94368cc1bb9e4') in 0.227421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0041.png
+  artifactKey: Guid(f00668d1972d97d439af2a582ff17aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0041.png using Guid(f00668d1972d97d439af2a582ff17aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a209228d3d1c0a326a03670479893c') in 0.125577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0039.png
+  artifactKey: Guid(69afcf3204508b14aa4cb245522ef665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0039.png using Guid(69afcf3204508b14aa4cb245522ef665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1b92f2d9864d8a82820cf1a5824fdf') in 0.130106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0028.png
+  artifactKey: Guid(1c921024fa5ef324798e286423cd9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0028.png using Guid(1c921024fa5ef324798e286423cd9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d082a1846c88f259036976cfc23c62b') in 0.124823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0034.png
+  artifactKey: Guid(c4d733e2ab53e8d4889f099adfd5761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0034.png using Guid(c4d733e2ab53e8d4889f099adfd5761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebed3a0f1fa2a0b9f3249c5a0280c30') in 0.123636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0030.png
+  artifactKey: Guid(c701075c9c54ca343858bf8093aa2a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0030.png using Guid(c701075c9c54ca343858bf8093aa2a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87522fb494fc28d875fa9e3b8677579') in 0.132519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0027.png
+  artifactKey: Guid(c70babccd41d6cc4d80140161b844c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0027.png using Guid(c70babccd41d6cc4d80140161b844c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d6c4e5abb35913b1641ebfbcdaede4') in 0.125707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0044.png
+  artifactKey: Guid(1095d8505cbebcf44a654cdfc6ad15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0044.png using Guid(1095d8505cbebcf44a654cdfc6ad15fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49075b84ad17b7961f854317a4abfaee') in 0.122658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0046.png
+  artifactKey: Guid(003738a20dc005642a155d6453635d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0046.png using Guid(003738a20dc005642a155d6453635d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4118993b33bc22d642be530536a5bf65') in 0.122906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.372172 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0018.png
+  artifactKey: Guid(3a8a96d688da6a14592ec8053d880d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0018.png using Guid(3a8a96d688da6a14592ec8053d880d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16ffc6ff5e23e2d60ed3b3969865017') in 0.146571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0020.png
+  artifactKey: Guid(ae0568e676901db4992273491950e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0020.png using Guid(ae0568e676901db4992273491950e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ec35187c4dba80463ffb674b8644ff') in 0.131786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0015.png
+  artifactKey: Guid(efcaddc621e62de49bae423018d0853b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0015.png using Guid(efcaddc621e62de49bae423018d0853b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebcc06f716c65781002243d8e4d0eaf') in 0.133918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0006.png
+  artifactKey: Guid(c7caffe811666fb4eb59cf2d34e4063e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0006.png using Guid(c7caffe811666fb4eb59cf2d34e4063e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbe4aa2e1d3240066ac665efd5eb7f8') in 0.126303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0009.png
+  artifactKey: Guid(72529157cfcd9f04e82bc41811a9f5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0009.png using Guid(72529157cfcd9f04e82bc41811a9f5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1088b0808015d701ee703830f1bda20d') in 0.129343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0007.png
+  artifactKey: Guid(daeff5054ca18324fa57dc658c2c260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0007.png using Guid(daeff5054ca18324fa57dc658c2c260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7b1710cf23ea6f14a6017da1cdaedb') in 0.129554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Victor/States/ElementStates/EarthState/Attack/0004.png
+  artifactKey: Guid(a54fbfebfb6686e479b328863133264b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/ElementStates/EarthState/Attack/0004.png using Guid(a54fbfebfb6686e479b328863133264b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2774d333940cc556ca4c7af69dd2c0') in 0.120835 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009891 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (196.8 KB). Loaded Objects now: 4569.
+Memory consumption went from 176.1 MB to 175.9 MB.
+Total: 3.260700 ms (FindLiveObjects: 0.416900 ms CreateObjectMapping: 0.099100 ms MarkObjects: 2.575600 ms  DeleteObjects: 0.168200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

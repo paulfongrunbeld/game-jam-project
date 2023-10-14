@@ -8,24 +8,26 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private GameObject numberToRemove;
     [SerializeField] private PlayerBehaviorSetter setter;
     [SerializeField] private GameObject player;
-    private int health = 10;
+    public MusicManager musicManager;
+    public int health = 10;
     private void Awake() => numberToRemove = healthPoints[healthPoints.Count - 1];
 
 	private void Start()
 	{
         setter = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerBehaviorSetter>();
         player = GameObject.FindGameObjectWithTag("Player");
-
+        musicManager = GameObject.FindGameObjectWithTag("music").GetComponent<MusicManager>();
     }
 
 	public void GetDamage()
     {
         
         numberToRemove.SetActive(false);
+        musicManager.Punch();
         health--;
 		if (health == 0)
 		{
-            setter.SetBehaviorDeath();
+            Destroy(player.gameObject);
 		}
 		
         int indexToRemove = healthPoints.IndexOf(numberToRemove);

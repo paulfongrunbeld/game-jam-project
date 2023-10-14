@@ -10,6 +10,7 @@ TagManager:
   - FireWorm
   - HPBar
   - PlayerAttackZone
+  - music
   layers:
   - Default
   - TransparentFX

@@ -14,20 +14,28 @@ public class BattleTriger1 : MonoBehaviour
 	public GameObject leftfirewall;
 	public GameObject rightfirewall;
 
+	public MusicManager musicManager;
+
+	public static Action music;
 	
 
 	private void Awake()
 	{
-	
+		musicManager = GameObject.FindGameObjectWithTag("music").GetComponent<MusicManager>();
 		EnemyHitHandler.onKill += KillFire;
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+		music?.Invoke();
+		
 		if (collision.gameObject.tag.Equals("Player"))
 		{
 			leftfirewall.SetActive(true);
 			rightfirewall.SetActive(true);
+
+			musicManager.audio.Stop();
+			musicManager.Combat();
 
 			CameraController.targetPosition = target1.transform.position;
 			CameraController.targetSize = targetSize1;

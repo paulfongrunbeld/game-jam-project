@@ -15,7 +15,7 @@ D:/Unity/game-jam-project/Game Jam Project
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-52617
+50104
 Successfully changed project path to: D:/Unity/game-jam-project/Game Jam Project
 D:/Unity/game-jam-project/Game Jam Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity/game-jam-project/Game Jam Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 95.35 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 93.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path D:/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,76 +63,76 @@ Initialize mono
 Mono path[0] = 'D:/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003979 seconds.
+Registered in 0.002808 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 83.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.592 seconds
+- Completed reload, in  0.522 seconds
 Domain Reload Profiling:
-	ReloadAssembly (592ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (523ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (413ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (376ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (84ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (247ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (229ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007079 seconds.
+Registered in 0.007130 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 83.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.088 seconds
+- Completed reload, in  0.986 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1089ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (878ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (785ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (229ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (444ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (404ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (212ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -140,12 +140,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4080 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 46 unused Assets / (203.6 KB). Loaded Objects now: 4558.
 Memory consumption went from 171.2 MB to 171.0 MB.
-Total: 4.477500 ms (FindLiveObjects: 0.381100 ms CreateObjectMapping: 0.110400 ms MarkObjects: 3.797300 ms  DeleteObjects: 0.187600 ms)
+Total: 3.226500 ms (FindLiveObjects: 0.330200 ms CreateObjectMapping: 0.107500 ms MarkObjects: 2.614500 ms  DeleteObjects: 0.173400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,28 +159,242 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 89742.128212 seconds.
-  path: Assets/Fire/Fire_wall_animation-29.png
-  artifactKey: Guid(817b56278a67b1d439b9c3b49cd6f39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-29.png using Guid(817b56278a67b1d439b9c3b49cd6f39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8c7df213431e1d4cb806c80554fa79') in 0.256802 seconds 
+  Time since last request: 344795.518938 seconds.
+  path: Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-3.png
+  artifactKey: Guid(546d13d3d4d4b5e44a66c4678db59651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-3.png using Guid(546d13d3d4d4b5e44a66c4678db59651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c421b90acf5b1c57ff62968c5f120e') in 0.297166 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Fire/Fire_wall_animation-37.png
-  artifactKey: Guid(4ee78158a609f274682a42e2eb6c7628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-37.png using Guid(4ee78158a609f274682a42e2eb6c7628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ac288649ebfb5050afc56c0f86caf2') in 0.182801 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-4.png
+  artifactKey: Guid(e011db3a669bc204683665f4d704dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-4.png using Guid(e011db3a669bc204683665f4d704dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94035f12a5a916adc5f8946a64efbfb1') in 0.164406 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009486 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1003ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (777ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (196.7 KB). Loaded Objects now: 4568.
+Memory consumption went from 175.5 MB to 175.3 MB.
+Total: 3.186800 ms (FindLiveObjects: 0.378800 ms CreateObjectMapping: 0.096000 ms MarkObjects: 2.529200 ms  DeleteObjects: 0.181900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Fire/Fire_wall_animation-39.png
-  artifactKey: Guid(fa50d93bd3e87284aa045ddf72201932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-39.png using Guid(fa50d93bd3e87284aa045ddf72201932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03b05cb2a3e28614ebd2f047171b2f8') in 0.140563 seconds 
+  Time since last request: 79.180707 seconds.
+  path: Assets/Victor/States/DefaultState/Dash/__purple_cape_wizzard_jump_001.png
+  artifactKey: Guid(1b326795bae727e499d9f11690fa24cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Dash/__purple_cape_wizzard_jump_001.png using Guid(1b326795bae727e499d9f11690fa24cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0005ce8ce112592c8c088cc6da6ca332') in 0.142020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Victor/States/DefaultState/Dash/__purple_cape_wizzard_jump_006.png
+  artifactKey: Guid(e7ffc24cb3a462b4aa0dd8aac8e17444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Dash/__purple_cape_wizzard_jump_006.png using Guid(e7ffc24cb3a462b4aa0dd8aac8e17444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc33cedc3df326276b13def1b8d9e6ba') in 0.078059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Victor/States/DefaultState/Dash/__purple_cape_wizzard_jump_005.png
+  artifactKey: Guid(b234f3c467b881d4f8ff3476fe994fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Dash/__purple_cape_wizzard_jump_005.png using Guid(b234f3c467b881d4f8ff3476fe994fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40cc04bbdafd40ef414adf2df240608') in 0.077271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Victor/States/DefaultState/Dash/__purple_cape_wizzard_jump_002.png
+  artifactKey: Guid(b28d21dc8019266479c2a03adeff9356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Dash/__purple_cape_wizzard_jump_002.png using Guid(b28d21dc8019266479c2a03adeff9356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e1f25f3b7b8f1acc4a8d5cd6f6aa7a') in 0.067428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.816661 seconds.
+  path: Assets/Victor/States/DefaultState/Death/__purple_cape_wizzard_die_001.png
+  artifactKey: Guid(03055cc4200469f43bbdc81c27b00830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Death/__purple_cape_wizzard_die_001.png using Guid(03055cc4200469f43bbdc81c27b00830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2944e8744ca2582f2914a930bc064c8') in 0.075475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Victor/States/DefaultState/Death/__purple_cape_wizzard_die_006.png
+  artifactKey: Guid(37b61ca2cd55086419ba2b72eef5fdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Death/__purple_cape_wizzard_die_006.png using Guid(37b61ca2cd55086419ba2b72eef5fdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf86aa0e01fc1b071294c6e8d6eff616') in 0.070918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Victor/States/DefaultState/Death/__purple_cape_wizzard_die_002.png
+  artifactKey: Guid(9431eb976bb922844bea29b3bf7e6f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Death/__purple_cape_wizzard_die_002.png using Guid(9431eb976bb922844bea29b3bf7e6f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeec5d919018993bf9da1dbda5dd096c') in 0.073766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Victor/States/DefaultState/Death/__purple_cape_wizzard_die_007.png
+  artifactKey: Guid(11030f67ab0c98f4aaa4960d25e50065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Death/__purple_cape_wizzard_die_007.png using Guid(11030f67ab0c98f4aaa4960d25e50065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a9e4eb91aafcbe302e09a970481b1b') in 0.070032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.582604 seconds.
+  path: Assets/Victor/States/DefaultState/GetHit/__purple_cape_wizzard_jump_001.png
+  artifactKey: Guid(235f80db3bfb84043b169d180ebafff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/GetHit/__purple_cape_wizzard_jump_001.png using Guid(235f80db3bfb84043b169d180ebafff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afffec0383d3617c0b65c6d6701c03f') in 0.063157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.284146 seconds.
+  path: Assets/Victor/States/DefaultState/GetHit/Victor_damage-3.png
+  artifactKey: Guid(72344efae7d43fe498cf6df422fc2708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/GetHit/Victor_damage-3.png using Guid(72344efae7d43fe498cf6df422fc2708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62349e5d91e1b7caff46ea89f3e7c1ac') in 0.181044 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Fire/Fire_wall_animation-33.png
-  artifactKey: Guid(7b1921d3784fd694ba2e53e02ffb3ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-33.png using Guid(7b1921d3784fd694ba2e53e02ffb3ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2d07c6dbea47f04bdedbaf01396001') in 0.126414 seconds 
+  path: Assets/Victor/States/DefaultState/GetHit/Victor_damage-5.png
+  artifactKey: Guid(e4511f7bd67be2946bd182f6e0278904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/GetHit/Victor_damage-5.png using Guid(e4511f7bd67be2946bd182f6e0278904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6203777808ca775905d7f1bf4bb4cf') in 0.165191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.285467 seconds.
+  path: Assets/Victor/States/DefaultState/Run/__purple_cape_wizzard_run_002.png
+  artifactKey: Guid(389e166642804f24a9c2bd44770a7f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Run/__purple_cape_wizzard_run_002.png using Guid(389e166642804f24a9c2bd44770a7f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76598e4e0fe6a038110842e382865509') in 0.075651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Victor/States/DefaultState/Run/__purple_cape_wizzard_run_003.png
+  artifactKey: Guid(12092b5e71975e645b26b7e5845584a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Run/__purple_cape_wizzard_run_003.png using Guid(12092b5e71975e645b26b7e5845584a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b0c56809f1b080baee8ce15b12eb63') in 0.083664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Victor/States/DefaultState/Run/__purple_cape_wizzard_run_006.png
+  artifactKey: Guid(e7408724ffcfa8d4e9c8d30af3ea875e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Run/__purple_cape_wizzard_run_006.png using Guid(e7408724ffcfa8d4e9c8d30af3ea875e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5280dbe9caffe1cba2bf06790dd7461') in 0.083087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144029 seconds.
+  path: Assets/Victor/States/DefaultState/Idle/__purple_cape_wizzard_idle_002.png
+  artifactKey: Guid(2769406b49d438d41a1feffb62612275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Idle/__purple_cape_wizzard_idle_002.png using Guid(2769406b49d438d41a1feffb62612275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b03e9ed9e297a8c0666a6bc9f58f331') in 0.078152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Victor/States/DefaultState/Idle/__purple_cape_wizzard_idle_004.png
+  artifactKey: Guid(ac8c8b9c08737ce42af5c36fae1234f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Idle/__purple_cape_wizzard_idle_004.png using Guid(ac8c8b9c08737ce42af5c36fae1234f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca6a43f9ef28d1a9d524ea8a2dc38b6') in 0.082020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Victor/States/DefaultState/Idle/__purple_cape_wizzard_idle_005.png
+  artifactKey: Guid(4c93bc529e7c5ff49ac7f9be8b47b094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/Idle/__purple_cape_wizzard_idle_005.png using Guid(4c93bc529e7c5ff49ac7f9be8b47b094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99657a5e366f57698521e35ef60956bb') in 0.074086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.255464 seconds.
+  path: Assets/Victor/States/DefaultState/GetHit/Victor_damage-2.png
+  artifactKey: Guid(f48e4b31568a36b48879dc8b31f3aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/GetHit/Victor_damage-2.png using Guid(f48e4b31568a36b48879dc8b31f3aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3fae81190a7d0061d0277ae88e68c0') in 0.276882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Victor/States/DefaultState/GetHit/Victor_damage-7.png
+  artifactKey: Guid(910273c660b6fed449d13f7c9243527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor/States/DefaultState/GetHit/Victor_damage-7.png using Guid(910273c660b6fed449d13f7c9243527c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28a42d8c4492b445e5d8c42ea954b29') in 0.160454 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009244 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
+Domain Reload Profiling:
+	ReloadAssembly (991ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (769ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (196.8 KB). Loaded Objects now: 4577.
+Memory consumption went from 175.5 MB to 175.4 MB.
+Total: 3.278200 ms (FindLiveObjects: 0.418200 ms CreateObjectMapping: 0.087400 ms MarkObjects: 2.599000 ms  DeleteObjects: 0.172600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

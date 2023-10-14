@@ -15,7 +15,7 @@ D:/Unity/game-jam-project/Game Jam Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52617
+50104
 Successfully changed project path to: D:/Unity/game-jam-project/Game Jam Project
 D:/Unity/game-jam-project/Game Jam Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity/game-jam-project/Game Jam Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 88.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 89.75 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path D:/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'D:/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002729 seconds.
+Registered in 0.003054 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 85.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 100.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.578 seconds
+- Completed reload, in  0.621 seconds
 Domain Reload Profiling:
-	ReloadAssembly (578ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (622ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (412ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (445ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (248ms)
+			SetupLoadedEditorAssemblies (270ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (110ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007200 seconds.
+Registered in 0.007147 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.56 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 87.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
+- Completed reload, in  1.046 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1087ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (874ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
+			SetupTypeCache (220ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (439ms)
+			SetupLoadedEditorAssemblies (417ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (213ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4080 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 46 unused Assets / (203.6 KB). Loaded Objects now: 4558.
 Memory consumption went from 171.2 MB to 171.0 MB.
-Total: 5.333300 ms (FindLiveObjects: 0.698200 ms CreateObjectMapping: 0.200700 ms MarkObjects: 4.163000 ms  DeleteObjects: 0.269900 ms)
+Total: 3.277500 ms (FindLiveObjects: 0.394200 ms CreateObjectMapping: 0.107600 ms MarkObjects: 2.560200 ms  DeleteObjects: 0.214200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,118 +159,232 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 89487.061936 seconds.
-  path: Assets/Fire/Fire_wall_animation-15.png
-  artifactKey: Guid(83fdb848d7013374bab7dd4146f6ecd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-15.png using Guid(83fdb848d7013374bab7dd4146f6ecd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce4b4505463861646413886dc016917') in 0.431953 seconds 
+  Time since last request: 339192.529625 seconds.
+  path: Assets/Victor.prefab
+  artifactKey: Guid(64e96228cc04e834a884d49408f14c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victor.prefab using Guid(64e96228cc04e834a884d49408f14c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbb9b56335ff83e2ada922dd48c2c32') in 11.323545 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009572 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (754ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (196.8 KB). Loaded Objects now: 4569.
+Memory consumption went from 175.7 MB to 175.5 MB.
+Total: 3.631100 ms (FindLiveObjects: 0.372100 ms CreateObjectMapping: 0.105100 ms MarkObjects: 2.939200 ms  DeleteObjects: 0.214000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Fire/Fire_wall_animation-32.png
-  artifactKey: Guid(0be185e9e5382ec41ae9e4faf352c100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-32.png using Guid(0be185e9e5382ec41ae9e4faf352c100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76aa342928eb6aa4295fb4eb169ddfec') in 0.162852 seconds 
+  Time since last request: 70.910218 seconds.
+  path: Assets/Enemies/кинжальщик
+  artifactKey: Guid(b3b23544f0fe5a34ab7b78fd266636c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/кинжальщик using Guid(b3b23544f0fe5a34ab7b78fd266636c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbd920c650100bff2b69c7870c24586') in 0.017879 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006928 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1443ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1125ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (669ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (197.8 KB). Loaded Objects now: 4572.
+Memory consumption went from 175.7 MB to 175.5 MB.
+Total: 3.629700 ms (FindLiveObjects: 0.400300 ms CreateObjectMapping: 0.100300 ms MarkObjects: 2.954600 ms  DeleteObjects: 0.173500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009568 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\game-jam-project\Game Jam Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.004 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1005ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (326ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (196.9 KB). Loaded Objects now: 4575.
+Memory consumption went from 175.7 MB to 175.5 MB.
+Total: 5.030000 ms (FindLiveObjects: 1.232700 ms CreateObjectMapping: 0.441100 ms MarkObjects: 3.191200 ms  DeleteObjects: 0.164200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Fire/Fire_wall_animation-31.png
-  artifactKey: Guid(e0e63da5430b9ec42bc5fe538757018f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-31.png using Guid(e0e63da5430b9ec42bc5fe538757018f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e2ade187f5bdba082131584a603573') in 0.171453 seconds 
+  Time since last request: 4634.881157 seconds.
+  path: Assets/Enemies/Asssin
+  artifactKey: Guid(b3b23544f0fe5a34ab7b78fd266636c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Asssin using Guid(b3b23544f0fe5a34ab7b78fd266636c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e039d614edb8a50714e44476d34a66') in 0.016576 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fire/Fire_wall_animation-17.png
-  artifactKey: Guid(8cd0539c6f2c019428807b51bd8a9ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-17.png using Guid(8cd0539c6f2c019428807b51bd8a9ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478b314723646661854f0610690a5d04') in 0.155658 seconds 
+  Time since last request: 104.210830 seconds.
+  path: Assets/Enemies/Asssin/_Little_cosplayguy_get_damage-1.png
+  artifactKey: Guid(3a6b7cdf2e544f14e866a6fd734c00af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Asssin/_Little_cosplayguy_get_damage-1.png using Guid(3a6b7cdf2e544f14e866a6fd734c00af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a72920dea6bff345f7481aadb5ea305') in 0.278696 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fire/Fire_wall_animation-5.png
-  artifactKey: Guid(2103a3dc22929d64b8b821df858eec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-5.png using Guid(2103a3dc22929d64b8b821df858eec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0d13a65eee5da13de2a6c5989e75b0') in 0.148172 seconds 
+  Time since last request: 18.540221 seconds.
+  path: Assets/Enemies/Asssin/_Little_cosplayguy_get_damage-1.png
+  artifactKey: Guid(3a6b7cdf2e544f14e866a6fd734c00af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Asssin/_Little_cosplayguy_get_damage-1.png using Guid(3a6b7cdf2e544f14e866a6fd734c00af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e23ed361bdff586d1fab55c428ecea5') in 0.154180 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Fire/Fire_wall_animation-18.png
-  artifactKey: Guid(74c2798d8663b6f4a9830d4333252bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-18.png using Guid(74c2798d8663b6f4a9830d4333252bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff60a645c89b333090e26f43d549db3') in 0.132424 seconds 
+  Time since last request: 87.940268 seconds.
+  path: Assets/Enemies/Asssin/Attack
+  artifactKey: Guid(d1b27d11290306c4d9312df2edebc572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Asssin/Attack using Guid(d1b27d11290306c4d9312df2edebc572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ed90f71fa029496580b7aa5818cac8') in 0.011261 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Fire/Fire_wall_animation-8.png
-  artifactKey: Guid(c085d649d108d204293dafa35cf5aa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-8.png using Guid(c085d649d108d204293dafa35cf5aa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0b41296bf3fc816d2a02455dd8ed60') in 0.140460 seconds 
+  Time since last request: 550.462481 seconds.
+  path: Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-1.png
+  artifactKey: Guid(ea0137ef05f5dab4292fec95f5bb491b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-1.png using Guid(ea0137ef05f5dab4292fec95f5bb491b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6206c4c0d2ccf2b23f25ad7c646788fb') in 0.178862 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Fire/Fire_wall_animation-28.png
-  artifactKey: Guid(f186ca77a21b00d47b946b4cb8240e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-28.png using Guid(f186ca77a21b00d47b946b4cb8240e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3448445cb79c048361ecfece0dd54634') in 0.129894 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-6.png
+  artifactKey: Guid(b7e4709fbe379ae4bb69e315a8f9ccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-6.png using Guid(b7e4709fbe379ae4bb69e315a8f9ccb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6217e748ab53dad1396aba573400ab29') in 0.152654 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Fire/Fire_wall_animation-1.png
-  artifactKey: Guid(ebf5c8d6ca7651b43a7fe76326687404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-1.png using Guid(ebf5c8d6ca7651b43a7fe76326687404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aea8ac3697cea15c6da6961c7889b99') in 0.138353 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-5.png
+  artifactKey: Guid(6ebe6884cb6a0f1458394190510b5e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-5.png using Guid(6ebe6884cb6a0f1458394190510b5e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e64f3abbd1768b4cd3611be3121ae1') in 0.156297 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Fire/Fire_wall_animation-33.png
-  artifactKey: Guid(7b1921d3784fd694ba2e53e02ffb3ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-33.png using Guid(7b1921d3784fd694ba2e53e02ffb3ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1af67d53fd1563bf7ae902ce116f75') in 0.136364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Fire/Fire_wall_animation-7.png
-  artifactKey: Guid(cc50e312ee2cfb54c8400408fab6f8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-7.png using Guid(cc50e312ee2cfb54c8400408fab6f8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0361afe02b920faec0d01d9c92dd892a') in 0.146088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.291477 seconds.
-  path: Assets/Fire/Fire_wall_animation-35.png
-  artifactKey: Guid(96ad466e09812db4686df0fba2410021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-35.png using Guid(96ad466e09812db4686df0fba2410021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9044481d8d88df59ae5ca40bf15491') in 0.155275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Fire/Fire_wall_animation-39.png
-  artifactKey: Guid(fa50d93bd3e87284aa045ddf72201932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-39.png using Guid(fa50d93bd3e87284aa045ddf72201932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38a7e78befa728c7530e6ff83880898') in 0.174977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 177.387347 seconds.
-  path: Assets/Fire/Fire_wall_animation-16.png
-  artifactKey: Guid(7bc12171211865f40be280aad139a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-16.png using Guid(7bc12171211865f40be280aad139a25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e69e953805d923159bc1a894217443f') in 0.145742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Fire/Fire_wall_animation-23.png
-  artifactKey: Guid(5e16789e84344b6488f304953f3b01fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-23.png using Guid(5e16789e84344b6488f304953f3b01fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85c07f20da7ec5e6f4e884a2f50c9ec') in 0.135309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Fire/Fire_wall_animation-20.png
-  artifactKey: Guid(3fd13277e3329d8409fbbae0b57104ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-20.png using Guid(3fd13277e3329d8409fbbae0b57104ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66b72d5846d7ca66bee14057f67e78e') in 0.138683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Fire/Fire_wall_animation-18.png
-  artifactKey: Guid(74c2798d8663b6f4a9830d4333252bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-18.png using Guid(74c2798d8663b6f4a9830d4333252bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c2495adda3843e444663f241347d21') in 0.135884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Fire/Fire_wall_animation-22.png
-  artifactKey: Guid(081278452cd833546af56f55a19ecf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-22.png using Guid(081278452cd833546af56f55a19ecf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29adb834576b85a284e8e4b4eaf0a13b') in 0.135386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Fire/Fire_wall_animation-26.png
-  artifactKey: Guid(33bc5c2a9e8bbff4d839f2b09a845e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fire/Fire_wall_animation-26.png using Guid(33bc5c2a9e8bbff4d839f2b09a845e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73acc928436c3d80f703365480df4bd') in 0.141494 seconds 
+  Time since last request: 0.000027 seconds.
+  path: Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-7.png
+  artifactKey: Guid(a848675898d2ec54493c5a6b421748cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Asssin/Attack/_Little_cosplayguy_attack-7.png using Guid(a848675898d2ec54493c5a6b421748cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43378ee9bd196637284c748e407a7f4') in 0.156164 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

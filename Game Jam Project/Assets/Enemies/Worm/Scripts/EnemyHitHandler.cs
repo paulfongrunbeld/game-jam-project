@@ -15,10 +15,16 @@ public class EnemyHitHandler : MonoBehaviour
 
     public static Action onKill;
 
+    public MusicManager musicManager;
+
+
+
+
     private void Start()
     {
         enemyRenderer = GetComponent<SpriteRenderer>();
         originalMaterial = enemyRenderer.material;
+        musicManager = GameObject.FindGameObjectWithTag("music").GetComponent<MusicManager>();
     }
 
     public void HandleHit()
@@ -40,9 +46,12 @@ public class EnemyHitHandler : MonoBehaviour
            
             HandleHit();
             health--;
+            musicManager.Damage();
 			if (health == 0)
 			{
                 Destroy(gameObject);
+                musicManager.audio.Stop();
+                musicManager.ambient();
                 onKill?.Invoke();
 			}
 		}
